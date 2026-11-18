@@ -1,0 +1,13 @@
+/* Size the custom CPT menu icon on every admin screen. */
+#adminmenu .menu-icon-custom_docs .wp-menu-image img {
+	width: 20px;
+	height: 20px;
+	padding: 7px 0 0;
+	opacity: 1;
+}
+
+#adminmenu .menu-icon-custom_docs:hover .wp-menu-image img,
+#adminmenu .menu-icon-custom_docs.wp-has-current-submenu .wp-menu-image img,
+#adminmenu .menu-icon-custom_docs.current .wp-menu-image img {
+	opacity: 1;
+}

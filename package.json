@@ -1,0 +1,15 @@
+{
+  "name": "douxir",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Douxir admin dashboard, built with @wordpress/scripts.",
+  "author": "Codixr",
+  "license": "GPL-2.0-or-later",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^30.26.0"
+  }
+}

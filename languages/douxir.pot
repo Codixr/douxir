@@ -1,0 +1,708 @@
+# Copyright (C) 2026 Codixr
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Douxir 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/douxir\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-17T08:45:06+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: douxir\n"
+
+#. Plugin Name of the plugin
+#: douxir.php
+#: inc/class-douxir-admin.php:90
+#: inc/class-douxir-admin.php:128
+#: inc/doc-functions.php:73
+#: src/components/Header.js:19
+msgid "Douxir"
+msgstr ""
+
+#. Description of the plugin
+#: douxir.php
+msgid "Build a clean, searchable documentation hub with nested documents, categories, a table of contents and a drag-and-drop admin screen."
+msgstr ""
+
+#. Author of the plugin
+#: douxir.php
+msgid "Codixr"
+msgstr ""
+
+#. Author URI of the plugin
+#: douxir.php
+msgid "https://codixr.com"
+msgstr ""
+
+#: inc/class-douxir-admin.php:91
+msgid "All Docs"
+msgstr ""
+
+#: inc/class-douxir-admin.php:132
+msgid "Loading Douxir..."
+msgstr ""
+
+#: inc/class-douxir-admin.php:408
+msgid "(No title)"
+msgstr ""
+
+#: inc/class-douxir-admin.php:418
+msgid "Admin"
+msgstr ""
+
+#: inc/class-douxir-admin.php:469
+#: src/components/DocView.js:29
+#: src/components/DocView.js:32
+#: src/components/QuickEditModal.js:93
+msgid "Uncategorized"
+msgstr ""
+
+#: inc/class-douxir-admin.php:472
+msgid "Documents without any category assigned"
+msgstr ""
+
+#: inc/class-douxir-admin.php:500
+#: inc/doc-functions.php:76
+msgid "New Document"
+msgstr ""
+
+#: inc/class-douxir-admin.php:560
+#: inc/class-douxir-admin.php:635
+msgid "Invalid document ID."
+msgstr ""
+
+#: inc/class-douxir-admin.php:564
+msgid "You are not allowed to edit this document."
+msgstr ""
+
+#: inc/class-douxir-admin.php:578
+msgid "Invalid document status."
+msgstr ""
+
+#: inc/class-douxir-admin.php:582
+msgid "You are not allowed to publish this document."
+msgstr ""
+
+#: inc/class-douxir-admin.php:639
+msgid "You are not allowed to delete this document."
+msgstr ""
+
+#: inc/class-douxir-admin.php:644
+msgid "Failed to trash post."
+msgstr ""
+
+#: inc/class-douxir-admin.php:669
+msgid "Category name is required."
+msgstr ""
+
+#: inc/class-douxir-admin.php:710
+msgid "Category not found."
+msgstr ""
+
+#: inc/class-douxir-admin.php:714
+msgid "You are not allowed to delete this category."
+msgstr ""
+
+#: inc/class-douxir-admin.php:724
+msgid "The category could not be deleted."
+msgstr ""
+
+#: inc/class-douxir-plugin.php:94
+msgid "No results found"
+msgstr ""
+
+#: inc/class-douxir-plugin.php:111
+msgid "Open Douxir"
+msgstr ""
+
+#: inc/class-douxir-shortcodes.php:111
+msgid "Search documentation..."
+msgstr ""
+
+#: inc/class-douxir-shortcodes.php:111
+msgid "Search documentation"
+msgstr ""
+
+#: inc/class-douxir-shortcodes.php:156
+#: inc/class-douxir-shortcodes.php:240
+msgid "pro"
+msgstr ""
+
+#: inc/class-douxir-shortcodes.php:390
+msgid "View Details"
+msgstr ""
+
+#: inc/doc-functions.php:69
+#: inc/doc-functions.php:71
+#: inc/doc-functions.php:72
+#: templates/single-douxir.php:18
+#: src/components/DocView.js:82
+msgid "Documentation"
+msgstr ""
+
+#: inc/doc-functions.php:74
+msgid "Add New Document"
+msgstr ""
+
+#: inc/doc-functions.php:75
+msgid "Edit Document"
+msgstr ""
+
+#: inc/doc-functions.php:77
+msgid "View Document"
+msgstr ""
+
+#: inc/doc-functions.php:78
+msgid "Search Documents"
+msgstr ""
+
+#: inc/doc-functions.php:79
+msgid "No documents found."
+msgstr ""
+
+#: inc/doc-functions.php:80
+msgid "No documents found in Trash."
+msgstr ""
+
+#: inc/doc-functions.php:81
+msgid "All Documents"
+msgstr ""
+
+#: inc/doc-functions.php:99
+msgid "Doc Categories"
+msgstr ""
+
+#: inc/doc-functions.php:100
+msgid "Doc Category"
+msgstr ""
+
+#: inc/doc-functions.php:101
+msgid "Search Doc Categories"
+msgstr ""
+
+#: inc/doc-functions.php:102
+msgid "All Doc Categories"
+msgstr ""
+
+#: inc/doc-functions.php:103
+msgid "Edit Doc Category"
+msgstr ""
+
+#: inc/doc-functions.php:104
+msgid "Add New Doc Category"
+msgstr ""
+
+#: templates/single-douxir.php:32
+msgid "On this page"
+msgstr ""
+
+#: src/api.js:21
+msgid "API request failed"
+msgstr ""
+
+#: src/api.js:24
+msgid "Error:"
+msgstr ""
+
+#: src/App.js:64
+msgid "Document created successfully!"
+msgstr ""
+
+#: src/App.js:76
+msgid "Document updated!"
+msgstr ""
+
+#: src/App.js:91
+msgid "Document moved to trash."
+msgstr ""
+
+#: src/App.js:103
+msgid "Category created!"
+msgstr ""
+
+#: src/App.js:115
+msgid "Document order updated!"
+msgstr ""
+
+#: src/App.js:128
+msgid "Categories reordered!"
+msgstr ""
+
+#: src/App.js:142
+msgid "Category deleted. Its documents were kept."
+msgstr ""
+
+#. translators: %s: "1 document is" or "N documents are"
+#: src/components/ConfirmDeleteCategory.js:26
+#, js-format
+msgid "Its %s not deleted. They stay in Douxir and move to Uncategorized, unless they also belong to another category."
+msgstr ""
+
+#: src/components/ConfirmDeleteCategory.js:28
+msgid "1 document is"
+msgstr ""
+
+#. translators: %d: number of documents
+#: src/components/ConfirmDeleteCategory.js:31
+#, js-format
+msgid "%d documents are"
+msgstr ""
+
+#: src/components/ConfirmDeleteCategory.js:35
+msgid "This category has no documents."
+msgstr ""
+
+#: src/components/ConfirmDeleteCategory.js:56
+msgid "Delete category?"
+msgstr ""
+
+#: src/components/ConfirmDeleteCategory.js:58
+msgid "Close"
+msgstr ""
+
+#: src/components/ConfirmDeleteCategory.js:64
+msgid "The category"
+msgstr ""
+
+#: src/components/ConfirmDeleteCategory.js:66
+msgid "will be permanently deleted."
+msgstr ""
+
+#: src/components/ConfirmDeleteCategory.js:70
+msgid "Child documents stay under their parent document, and subcategories move up one level."
+msgstr ""
+
+#: src/components/ConfirmDeleteCategory.js:75
+#: src/components/NewCategoryModal.js:88
+#: src/components/NewDocModal.js:127
+#: src/components/QuickEditModal.js:154
+msgid "Cancel"
+msgstr ""
+
+#: src/components/ConfirmDeleteCategory.js:78
+msgid "Deleting..."
+msgstr ""
+
+#: src/components/ConfirmDeleteCategory.js:78
+#: src/components/Overview.js:112
+#: src/components/Overview.js:113
+msgid "Delete category"
+msgstr ""
+
+#: src/components/DocView.js:100
+#: src/components/DocView.js:310
+#: src/components/Overview.js:99
+#: src/components/SearchModal.js:112
+#: src/components/Sidebar.js:275
+#: src/components/Sidebar.js:320
+msgid "PRO"
+msgstr ""
+
+#: src/components/DocView.js:106
+msgid "View on Site"
+msgstr ""
+
+#: src/components/DocView.js:114
+msgid "Open in the WordPress editor"
+msgstr ""
+
+#: src/components/DocView.js:117
+msgid "WP Editor"
+msgstr ""
+
+#: src/components/DocView.js:121
+msgid "Quick Edit"
+msgstr ""
+
+#: src/components/DocView.js:126
+msgid "Move to trash"
+msgstr ""
+
+#. translators: %s: document title
+#: src/components/DocView.js:130
+#, js-format
+msgid "Are you sure you want to move \"%s\" to trash?"
+msgstr ""
+
+#: src/components/DocView.js:144
+#: src/components/SearchModal.js:106
+msgid "Slug:"
+msgstr ""
+
+#: src/components/DocView.js:147
+msgid "(empty)"
+msgstr ""
+
+#: src/components/DocView.js:151
+msgid "Category:"
+msgstr ""
+
+#: src/components/DocView.js:156
+msgid "Parent:"
+msgstr ""
+
+#: src/components/DocView.js:166
+msgid "Menu Order:"
+msgstr ""
+
+#: src/components/DocView.js:172
+msgid "Updated:"
+msgstr ""
+
+#: src/components/DocView.js:183
+msgid "Reader Preview"
+msgstr ""
+
+#: src/components/DocView.js:187
+msgid "Quick Content Editor"
+msgstr ""
+
+#: src/components/DocView.js:192
+msgid "Sub-Documents"
+msgstr ""
+
+#: src/components/DocView.js:204
+msgid "This document does not have any content yet."
+msgstr ""
+
+#: src/components/DocView.js:209
+msgid "Write Content Now"
+msgstr ""
+
+#: src/components/DocView.js:212
+msgid "Open WordPress Editor"
+msgstr ""
+
+#: src/components/DocView.js:222
+msgid "Document Title"
+msgstr ""
+
+#: src/components/DocView.js:226
+msgid "Document Content (HTML / Text)"
+msgstr ""
+
+#: src/components/DocView.js:232
+msgid "Write your documentation content here..."
+msgstr ""
+
+#: src/components/DocView.js:237
+msgid "For advanced block styling or media uploads, use the full"
+msgstr ""
+
+#: src/components/DocView.js:239
+msgid "WordPress Editor"
+msgstr ""
+
+#: src/components/DocView.js:245
+msgid "Saving Changes..."
+msgstr ""
+
+#: src/components/DocView.js:245
+#: src/components/QuickEditModal.js:157
+msgid "Save Changes"
+msgstr ""
+
+#. translators: %s: parent document title
+#: src/components/DocView.js:256
+#, js-format
+msgid "Child Pages of \"%s\""
+msgstr ""
+
+#: src/components/DocView.js:266
+msgid "Add Child Document"
+msgstr ""
+
+#: src/components/DocView.js:272
+msgid "No child documents under this article."
+msgstr ""
+
+#: src/components/DocView.js:281
+msgid "Create First Sub-Doc"
+msgstr ""
+
+#: src/components/DocView.js:316
+msgid "Order:"
+msgstr ""
+
+#: src/components/DocView.js:322
+msgid "Move Up"
+msgstr ""
+
+#: src/components/DocView.js:335
+msgid "Move Down"
+msgstr ""
+
+#: src/components/DocView.js:354
+msgid "View"
+msgstr ""
+
+#: src/components/Header.js:27
+msgid "Search docs, categories, or keywords..."
+msgstr ""
+
+#: src/components/Header.js:29
+msgid "Ctrl K"
+msgstr ""
+
+#: src/components/Header.js:35
+msgid "New Doc"
+msgstr ""
+
+#: src/components/Header.js:39
+msgid "New Category"
+msgstr ""
+
+#: src/components/NewCategoryModal.js:43
+msgid "Create New Category"
+msgstr ""
+
+#: src/components/NewCategoryModal.js:51
+msgid "Category Name *"
+msgstr ""
+
+#: src/components/NewCategoryModal.js:55
+msgid "e.g. Integrations, Setup, API"
+msgstr ""
+
+#: src/components/NewCategoryModal.js:63
+msgid "Slug (Optional)"
+msgstr ""
+
+#: src/components/NewCategoryModal.js:67
+msgid "e.g. integrations (leave empty for auto)"
+msgstr ""
+
+#: src/components/NewCategoryModal.js:73
+msgid "Parent Category"
+msgstr ""
+
+#: src/components/NewCategoryModal.js:75
+msgid "-- None (Top Level Category) --"
+msgstr ""
+
+#: src/components/NewCategoryModal.js:91
+#: src/components/NewDocModal.js:130
+msgid "Creating..."
+msgstr ""
+
+#: src/components/NewCategoryModal.js:91
+msgid "Create Category"
+msgstr ""
+
+#: src/components/NewDocModal.js:57
+msgid "Create New Document"
+msgstr ""
+
+#: src/components/NewDocModal.js:65
+#: src/components/QuickEditModal.js:71
+msgid "Document Title *"
+msgstr ""
+
+#: src/components/NewDocModal.js:69
+msgid "e.g. Getting Started Guide"
+msgstr ""
+
+#: src/components/NewDocModal.js:77
+#: src/components/QuickEditModal.js:91
+msgid "Category"
+msgstr ""
+
+#: src/components/NewDocModal.js:87
+msgid "Parent Document (Hierarchy)"
+msgstr ""
+
+#: src/components/NewDocModal.js:89
+msgid "-- None (Top Level Article) --"
+msgstr ""
+
+#: src/components/NewDocModal.js:98
+msgid "Publishing Status"
+msgstr ""
+
+#: src/components/NewDocModal.js:100
+#: src/components/QuickEditModal.js:106
+msgid "Published"
+msgstr ""
+
+#: src/components/NewDocModal.js:101
+#: src/components/QuickEditModal.js:107
+msgid "Draft"
+msgstr ""
+
+#: src/components/NewDocModal.js:102
+#: src/components/QuickEditModal.js:108
+msgid "Private"
+msgstr ""
+
+#: src/components/NewDocModal.js:110
+msgid "PRO Feature Article"
+msgstr ""
+
+#: src/components/NewDocModal.js:113
+msgid "Appends a stylish PRO badge on this document"
+msgstr ""
+
+#: src/components/NewDocModal.js:130
+msgid "Create Document"
+msgstr ""
+
+#: src/components/Overview.js:15
+msgid "Welcome to Douxir"
+msgstr ""
+
+#: src/components/Overview.js:17
+msgid "Manage your knowledge base, categories, and documentation hierarchy with an intuitive workspace."
+msgstr ""
+
+#: src/components/Overview.js:27
+msgid "Total Documents"
+msgstr ""
+
+#: src/components/Overview.js:36
+msgid "Categories"
+msgstr ""
+
+#: src/components/Overview.js:45
+msgid "PRO Articles"
+msgstr ""
+
+#: src/components/Overview.js:56
+msgid "draft"
+msgstr ""
+
+#: src/components/Overview.js:59
+msgid "Published / Drafts"
+msgstr ""
+
+#: src/components/Overview.js:65
+msgid "Categories & Sections"
+msgstr ""
+
+#: src/components/Overview.js:67
+msgid "(Drag and drop in the left sidebar to change order)"
+msgstr ""
+
+#: src/components/Overview.js:72
+msgid "Add Category"
+msgstr ""
+
+#: src/components/Overview.js:82
+msgid "docs"
+msgstr ""
+
+#: src/components/Overview.js:88
+msgid "No documents created yet."
+msgstr ""
+
+#: src/components/Overview.js:117
+msgid "Delete"
+msgstr ""
+
+#: src/components/Overview.js:124
+msgid "Add Doc"
+msgstr ""
+
+#: src/components/QuickEditModal.js:63
+msgid "Quick Edit Document"
+msgstr ""
+
+#: src/components/QuickEditModal.js:81
+msgid "Permalink Slug"
+msgstr ""
+
+#: src/components/QuickEditModal.js:104
+msgid "Status"
+msgstr ""
+
+#: src/components/QuickEditModal.js:114
+msgid "Parent Document"
+msgstr ""
+
+#: src/components/QuickEditModal.js:116
+msgid "-- None (Top Level) --"
+msgstr ""
+
+#: src/components/QuickEditModal.js:127
+msgid "Menu Order (Priority)"
+msgstr ""
+
+#: src/components/QuickEditModal.js:140
+msgid "PRO Feature"
+msgstr ""
+
+#: src/components/QuickEditModal.js:141
+msgid "Appends PRO badge"
+msgstr ""
+
+#: src/components/QuickEditModal.js:157
+msgid "Saving..."
+msgstr ""
+
+#: src/components/SearchModal.js:67
+msgid "Type to search documentation..."
+msgstr ""
+
+#. translators: %s: search query
+#: src/components/SearchModal.js:84
+#, js-format
+msgid "No documents found matching \"%s\"."
+msgstr ""
+
+#: src/components/SearchModal.js:133
+msgid "Navigation: ↑ ↓ arrows to select, Enter to open"
+msgstr ""
+
+#: src/components/SearchModal.js:134
+msgid "ESC to close"
+msgstr ""
+
+#: src/components/Sidebar.js:145
+msgid "Filter categories & docs..."
+msgstr ""
+
+#: src/components/Sidebar.js:152
+msgid "Dashboard"
+msgstr ""
+
+#: src/components/Sidebar.js:155
+msgid "Docs Total"
+msgstr ""
+
+#: src/components/Sidebar.js:162
+msgid "No matching documents found."
+msgstr ""
+
+#: src/components/Sidebar.js:178
+msgid "Drag to reorder category"
+msgstr ""
+
+#. translators: %s: category name
+#: src/components/Sidebar.js:206
+#, js-format
+msgid "Add doc to %s"
+msgstr ""
+
+#: src/components/Sidebar.js:222
+msgid "No docs yet in this category."
+msgstr ""
+
+#: src/components/Sidebar.js:239
+msgid "Drag to reorder document"
+msgstr ""
+
+#: src/components/Sidebar.js:271
+#: src/components/Sidebar.js:316
+msgid "Status:"
+msgstr ""
+
+#: src/components/Sidebar.js:281
+msgid "Add child page"
+msgstr ""
+
+#: src/components/Sidebar.js:304
+msgid "Drag to reorder child document"
+msgstr ""
